@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2EC8A81E0F82B400DB0F1E /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EC8A71E0F82B400DB0F1E /* Alerts.swift */; };
 		BF6AF3D71E06F4F300F11BEC /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AF3D61E06F4F300F11BEC /* PlaySoundsViewController.swift */; };
 		BF6AF3D91E06F58C00F11BEC /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AF3D81E06F58C00F11BEC /* RecordSoundsViewController.swift */; };
+		BF8975401E0E8DD700D1C30E /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED8BCF1DFDB99100A084A9 /* playsoundsviewcontroller-audio.swift */; };
 		BFED8BA21DFD7C1F00A084A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED8BA11DFD7C1F00A084A9 /* AppDelegate.swift */; };
 		BFED8BA71DFD7C1F00A084A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFED8BA51DFD7C1F00A084A9 /* Main.storyboard */; };
 		BFED8BA91DFD7C1F00A084A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFED8BA81DFD7C1F00A084A9 /* Assets.xcassets */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2EC8A71E0F82B400DB0F1E /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		BF6AF3D61E06F4F300F11BEC /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		BF6AF3D81E06F58C00F11BEC /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		BFED8B9E1DFD7C1F00A084A9 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BFED8BA11DFD7C1F00A084A9 /* AppDelegate.swift */,
+				BF2EC8A71E0F82B400DB0F1E /* Alerts.swift */,
 				BFED8BCF1DFDB99100A084A9 /* playsoundsviewcontroller-audio.swift */,
 				BF6AF3D61E06F4F300F11BEC /* PlaySoundsViewController.swift */,
 				BF6AF3D81E06F58C00F11BEC /* RecordSoundsViewController.swift */,
@@ -193,11 +197,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Sujal;
 				TargetAttributes = {
 					BFED8B9D1DFD7C1F00A084A9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8699TSZW7F;
 						ProvisioningStyle = Automatic;
 					};
 					BFED8BB11DFD7C1F00A084A9 = {
@@ -265,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFED8BA21DFD7C1F00A084A9 /* AppDelegate.swift in Sources */,
+				BF2EC8A81E0F82B400DB0F1E /* Alerts.swift in Sources */,
 				BF6AF3D71E06F4F300F11BEC /* PlaySoundsViewController.swift in Sources */,
 				BF6AF3D91E06F58C00F11BEC /* RecordSoundsViewController.swift in Sources */,
+				BF8975401E0E8DD700D1C30E /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +346,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -389,6 +397,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8699TSZW7F;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SG.Pitch-Perfect";
@@ -430,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8699TSZW7F;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SG.Pitch-Perfect";
